@@ -5,7 +5,7 @@ const Promise = require('bluebird')
 const fs = require('fs')
 const archiver = require('archiver')
 
-const FILE_QUANTITY = 50000
+const FILE_QUANTITY = 10000
 const CONCURRENT_REQUEST_QUANTITY = 500
 
 class Export {
