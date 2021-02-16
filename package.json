@@ -1,0 +1,35 @@
+{
+  "name": "google-storage-export",
+  "version": "1.0.0",
+  "description": "Example of how to export a big amount of data from Google Storage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:local": "source .env-local && nodemon server.js --trace-warnings",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipeneuhauss/google-storage-export.git"
+  },
+  "keywords": [],
+  "author": "felipe.neuhauss@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipeneuhauss/google-storage-export/issues"
+  },
+  "homepage": "https://github.com/felipeneuhauss/google-storage-export#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^5.7.4",
+    "archiver": "^5.2.0",
+    "bluebird": "^3.7.2",
+    "express": "^4.17.1",
+    "sequelize": "^6.5.0",
+    "sqlite3": "^5.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
